@@ -1,0 +1,24 @@
+{
+  "name": "http-server-node-express",
+  "version": "1.0.0",
+  "description": "HTTP SERVER",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FranciscoSosaUV/HTTP-Server-node-express.git"
+  },
+  "author": "Francisco Sosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FranciscoSosaUV/HTTP-Server-node-express/issues"
+  },
+  "homepage": "https://github.com/FranciscoSosaUV/HTTP-Server-node-express#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0"
+  }
+}
