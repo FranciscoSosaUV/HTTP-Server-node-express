@@ -1,9 +1,17 @@
-// index.js
-const path = require('path')
 const express = require('express')
+const app = express()
+const path = require('path')
+const port = 3000
 const exphbs = require('express-handlebars')
 
-const app = express()
+
+app.listen(port, (err) => {
+  if (err) {
+    return console.log('something bad happened', err)
+  }
+
+  console.log(`server is listening on ${port}`)
+})
 
 app.engine('.hbs', exphbs({
   defaultLayout: 'main',
